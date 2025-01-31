@@ -7,10 +7,7 @@ const About = () => {
             <h2 className="text-4xl text-center mb-10">
                 About<span className="text-neutral-500"> Me</span>
             </h2>
-
-            {/* Container Div for Three Sections */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl">
-                {/* First Section - Introduction */}
                 <motion.div
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: 50 }}
@@ -21,8 +18,6 @@ const About = () => {
                         👋 Hi! I'm a passionate <span className="text-cyan-300">developer & problem solver</span> who loves turning ideas into reality. I specialize in **modern web technologies** and enjoy tackling challenges that push me to learn and innovate.
                     </p>
                 </motion.div>
-
-                {/* Second Section - Skills & Expertise */}
                 <motion.div
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: 50 }}
@@ -33,8 +28,6 @@ const About = () => {
                         🚀 I work with **React, Next.js, Tailwind CSS, Firebase, and Node.js**, crafting intuitive user experiences. I'm also experienced in **data structures, algorithms, and AI-driven solutions**, helping create scalable and efficient applications.
                     </p>
                 </motion.div>
-
-                {/* Third Section - Vision & Goals */}
                 <motion.div
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: 50 }}
