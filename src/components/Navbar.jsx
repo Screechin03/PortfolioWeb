@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
+
 
 const Navbar = () => {
     return (
@@ -20,6 +22,9 @@ const Navbar = () => {
             {/* LinkedIn */}
             <a href="https://www.linkedin.com/in/indradeep-mandal-574686290/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-2xl hover:scale-125 hover:text-red-300 transition-transform duration-300" />
+            </a>
+             <a href="https://leetcode.com/u/indradeepmandal18/" target="_blank" rel="noopener noreferrer">
+                <SiLeetcode className="text-2xl hover:scale-125 hover:text-red-300 transition-transform duration-300" />
             </a>
 
         
