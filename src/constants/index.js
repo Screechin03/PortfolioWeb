@@ -5,6 +5,8 @@ import project4 from "../assets/projects/project-4.jpg";
 import img1 from "../assets/projects/img1.png"
 import img2 from "../assets/projects/img2.png"
 import img3 from "../assets/projects/img3.png"
+import img4 from "../assets/projects/img4.png"
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -74,8 +76,15 @@ export const PROJECTS = [
     title: "Derrik's Computer Service",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["React.js", "Next.js", "PostgreSql"],
+      "A platform for issuing tickets that help users track their current hardware/software problem submitted as well as tracking every update ",
+    technologies: ["DrizzleORM", "Next.js", "PostgreSql"],
+  },
+  {
+    title: "FileHand",
+    image: img4,
+    description:
+      "A website that helps parses .xlsx files, extract information while maintaing the pagination and help export the updated file to .xlsx",
+    technologies: ["React.js", "Express.js", "MongoDB"],
   },
 ];
 
